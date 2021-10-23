@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+:root {
+  --spacing1: 8px;
+  --spacing2: 16px;
+  --spacing3: 24px;
+  --spacing4: 32px;
+  --spacing5: 48px;
+  --spacing6: 64px;
+  --spacing7: 96px;
+  --spacing8: 128px;
+
+  --font1: 1rem;
+  --font2: 1.25rem;
+  --font3: 1.5rem;
+  --font4: 2rem;
+
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary1: hsl(45deg, 100%, 50%);
+  --secondary2: hsl(45deg, 100%, 40%);
+
+  --grey1: hsl(0deg, 0%, 0%);
+  --grey2: hsl(0deg, 0%, 0%);
+  --grey3: hsl(0deg, 0%, 10%);
+  --grey4: hsl(0deg, 0%, 30%);
+  --grey5: hsl(0deg, 0%, 40%);
+  --grey6: hsl(0deg, 0%, 60%);
+  --grey7: hsl(0deg, 0%, 100%);
+}
+
+h1 {
+  color: var(--grey3);
+  margin-bottom: var(--spacing6);
+}
+
+p {
+  color: var(--grey4);
+  margin: var(--spacing3) 0px;
+}
+
+strong {
+  color: var(--primary);
+}
+
+.max-width-wrapper {
+  max-width: 530px;
+  margin: var(--spacing7) auto;
+}
+
+.intro-chunk {
+  max-width: 300px;
+  padding: var(--spacing2);
+}
+
+main {
+  border-top: var(--spacing1) solid var(--grey5);
+  background: var(--grey6);
+}
+
+.card {
+  background-color: var(--grey7);
+  width: 100%;
+  padding: var(--spacing1) var(--spacing2);
+  border-bottom: var(--spacing1) solid var(--grey5);
+}
+
+.indented-heading {
+  color: var(--grey3);
+  background: var(--secondary1);
+  border-bottom: var(--spacing1) solid var(--secondary2);
+  display: block;
+  width: max-content;
+  padding: var(--spacing2) var(--spacing4);
+  margin-left: calc(-1 * var(--spacing4));
+}
